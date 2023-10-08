@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+    background-color: #FFC8C8;
+}
+.logo img{
+    border: 2px solid #FFE4D6;
+    margin-top: -1.5vh;
+    border-radius: 360px;
+    height: 45px;
+    margin-left: 5vh;
+}
+.navbar #links{
+    display: inline;
+    margin-bottom: 5vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display&family=Young+Serif&display=swap');
+.navbar #links a{
+    font-family:'Dela Gothic One', cursive;
+    background-color: #F1B4BB;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-right: 1vh;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.navbar #links #Gallery{
+    margin-right: 10vh;
+}
+.banner{
+    background-image: url(hahahabanner.png);
+    padding: 1.5vw;
+    background-color: antiquewhite;
+    height:93vh;
+    width: 97vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather&family=Playfair+Display&family=Young+Serif&display=swap');
+.banner h1{
+    font-family: 'Merriweather', serif;
+    color: #FFBFBF;
+    font-size: 4em;
+    margin-top: 2em;
+    margin-left: 8em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #E19898;
+    text-align: left;
+}
+.banner h1 span{
+    color: #FCBAAD;
+}
+.banner p{
+    font-family: 'Merriweather', serif;
+    font-size: 1.4em;
+    color: #E48586;
+    text-shadow: 1px 1px #FFD9C0;
+    padding-bottom: 15px;
+    margin-left: 23em;
+}
+.banner a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 20.8em;
+}
+.banner #click{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #FCAEAE, #FCBAAD, #FFD9C0, #FCBAAD, #FCAEAE );
+    color: #e9f5db;
+    text-shadow: 2px 2px #FF6666;
+}
+.footer{
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    background-color: #F1B4BB;
+    color: white;
+    text-align: left;
+}
+.footer p{
+    font-family: 'Alice', serif;
+    color: #FF6666;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.footer .ftlinks a{ 
+    float: right;
+    margin-right: 3px;
+}
+.footer .ftlinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+.footer .ftlinks .fb{
+    margin-right: 10px;
+}
+.gallery{
+    background-image: url(bg.png);
+    padding: 1vw;
+    width: 98vw;
+    height: 90vh;
+    background-position: center;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gallery h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #fff9f2;
+    position: fixed;
+    text-shadow: 2px 1px #FF6666;
+    float: center;
+    top: 8%;
+    bottom: 10%;
+    left: 43%;
+}
+.gallery .pics{
+    margin-top: 8em;
+}
+.pics img{
+    opacity: 1;
+    transition: 0.1s;
+    margin: 25px;
+    width: 13%;
+    border: 8px #E19898 ridge;
+    position: relative;
+    display: inline-block;
+}
+.pics img:hover{
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(1.5);
+}
